@@ -6,7 +6,7 @@ start_date = pd.to_datetime('2023-01-01')
 end_date = pd.to_datetime('2023-12-31')
 dates = pd.date_range(start=start_date, end=end_date, freq='D')
 
-area = {'1': [-70, -5], '2': [5, 20], '3': [-30, 65], '4': [95, 55]}
+area = {'0': [100, 15], '1': [-70, -5], '2': [5, 20], '3': [-30, 65], '4': [95, 55]}
 
 temp_data = {f'{code}_{i}' : [] for code in area for i in range(5)}
 time_data = []  
