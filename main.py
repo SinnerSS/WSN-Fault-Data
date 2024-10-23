@@ -16,11 +16,11 @@ for code, coords in area.items():
     point_coords = {}
 
     i = 5
-    for offset_lon in range(0, 11, 10):
-        for offset_lat in range(0, 11, 10):
+    for offset_lon in range(0, 3, 2):
+        for offset_lat in range(0, 3, 2):
             i -= 1
             point_coords[i] = (coords[0]+offset_lon, coords[1]+offset_lat)
-    point_coords[0] = (coords[0]+5, coords[1]+5)  
+    point_coords[0] = (coords[0]+1, coords[1]+1)  
 
     for date in dates:
         file_name = f'M2I1NXASM.5.12.4:MERRA2_400.inst1_2d_asm_Nx.{date.strftime("%Y%m%d")}.nc4.nc4'
