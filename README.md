@@ -42,18 +42,17 @@ git pull origin main
 You can process the raw data yourself using the `.txt` files from the `raw` directory. Data can be downloaded using wget from NASA GES DISC:
 
 For detailed instructions, visit: [How to Access GES DISC Data Using wget and curl](https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20Access%20GES%20DISC%20Data%20Using%20wget%20and%20curl)
-Data%20Using%20wget%20and%20curl 
 
 ## Data Source
 This dataset uses temperature data from the NASA Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2) model:
 
-###Daily Data
+### Daily Data
 
 - **Dataset**: MERRA-2 statD_2d_slv_Nx (M2T1NXSLV v5.12.4)
 - **Variable**: T2MMean (2-meter air temperature mean)
 - **DOI**: 10.5067/9SC1VNTWGWV3
 
-###Hourly Data
+### Hourly Data
 
 - **Dataset**: MERRA-2 inst1_2d_asm_Nx (M2T1NXSLV v5.12.4)
 - **Variable**: T2M (2-meter air temperature)
